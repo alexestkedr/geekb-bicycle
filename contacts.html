@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Контактная информация</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">  <!-- добавил иконку во вкладке html-страницы-->
+    <!--подключаю в свою html-страницу CSS c помощью подключения внешнего файла style.css-->
+    <link rel="stylesheet" href="style.css" media="all"> 
+</head>
+
+<body>
+<div class="container"> 
+
+  <header> 
+    
+      <div id="img">
+          <a href="index.html"><img src="images/logotip.png" alt="Логотип Велосайт" title="Логотип Велосайт"></a>
+      </div>
+    
+      <div class="favicon">
+            <img src="http://favicon.yandex.net/favicon/facebook.com" alt="facebook.com">
+            <img src="http://favicon.yandex.net/favicon/twitter.com" alt="twitter.com">
+            <img src="http://favicon.yandex.net/favicon/instagram.com" alt="instagram.com">
+            <img src="http://favicon.yandex.net/favicon/vkontakte.com" alt="vkontakte.com">    
+            <img src="http://favicon.yandex.net/favicon/googleplus.com" alt="googleplus.com">
+            <img src="http://favicon.yandex.net/favicon/odnoklassniki.ru" alt="odnoklassniki.ru">  
+            <img src="http://favicon.yandex.net/favicon/linkedin.com" alt="linkeidin.com">    
+      </div>
+    
+      <div class="poisk">
+          <input  class="zaglavnayabukva" type="text" size="15" placeholder=" Поиск...">
+          <input type="submit" size="15" value="Найти">
+     </div>
+    
+</header>  
+
+                <!--СОЗДАНИЕ MENU-->
+
+<div class="topmenu">
+    <div>
+      <a href="index.html">Главная</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
+  </div>
+  
+  <!--СОЗДАНИЕ CONTENT-->
+
+    <div class="content">
+    
+        <h2>Напишите нам</h2>
+                  <!--СОЗДАНИЕ ФОРМ-->
+
+        <form action=""> <!--нужно вписать в "" какой-нибудь адрес для получения инфы от клиента-->
+           <fieldset>
+             <legend>Контактные данные</legend>
+                <input class="zaglavnayabukva" type="text" size="30" placeholder="Имя"/><br>
+                <input id="email" class="zaglavnayabukva" type="email" class="email" size="30" placeholder="E-mail"/><br>
+                <input class="zaglavnayabukva" type="text" size="30" placeholder="Тема"/><br><br>
+                <textarea class="zaglavnayabukva" class="redbukva" name="title" cols="60" rows="10" placeholder="Введите текст"/></textarea> <br>
+                <input type="submit">
+          </fieldset> 
+        </form>
+
+        <h2>Адрес</h2>
+          <div class="contact-list" >
+              <p>Россия, 109440, г. Москва ул. Николаевская д.13, к.2</p>
+              <p>Телефоны: +7 (495) 720-15-51; +7 (495) 720-15-70</p>
+              <p>Факс: +7 (495) 745-70-75</p>
+              <p>E-mail: alexest@inbox.ru</p>
+              <br>
+        </div>
+
+   </div><!-- END content -->
+     
+</div><!-- END container -->
+
+
+<div class="clr"></div> 
+              <!--СОЗДАНИЕ FOOTER-->
+
+   <div class="footer">
+          <!--добавил знак копирайта-->
+       <small>Copyright &copy; 2017 Aleksandr Papiev</small>                   
+  </div>
+
+ </body>
+</html>
